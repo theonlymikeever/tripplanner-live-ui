@@ -8,40 +8,26 @@
         Hotels
         <br />
         <select style='width: 80%' class='form-control input-sm pull-left'>
-
-        <!--  {% for item in hotels %}
-          <option value='{{ item.id }}'>
-            {{ item.name }}
-          </option>
-          {% endfor %}-->
         </select>
         <button class='btn btn-primary btn-sm pull-right'>+</button>
         <br clear='all' />
       </li>
 
-      <li class='list-group-item'>
+      <li class='list-group-item' id='restaurants-list'>
         Restaurants
         <br />
         <select style='width: 80%' class='form-control input-sm pull-left'>
-          {% for item in restaurants %}
-          <option value='{{ item.id }}'>
-            {{ item.name }}
-          </option>
-          {% endfor %}
+
         </select>
         <button class='btn btn-primary btn-sm pull-right'>+</button>
         <br clear='all' />
       </li>
 
-      <li class='list-group-item'>
+      <li class='list-group-item' id="activities-list">
         Activities
         <br />
         <select style='width: 80%' class='form-control input-sm pull-left'>
-          {% for item in activities %}
-          <option value='{{ item.id }}'>
-            {{ item.name }}
-          </option>
-          {% endfor %}
+
         </select>
         <button class='btn btn-primary btn-sm pull-right'>+</button>
         <br clear='all' />
